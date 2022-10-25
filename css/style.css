@@ -45,6 +45,7 @@ body{
     border:none;
     overflow: hidden;
     position: relative;
+    text-decoration: none;
     z-index: 0;
 }
 
@@ -386,6 +387,10 @@ header #menu{
     
 }
 
+.aplikasi .heading{
+  margin-top: -50px;
+}
+
 .aplikasi .row{
 
   display: flex;
@@ -453,13 +458,12 @@ header #menu{
     background:url(../images/home-bg-img.png) no-repeat;
     background-size: cover;
     background-position: center;
+    margin-top: -30px;
     
 }
 
 .sipaling .image img{
-
     width:40vw;
-
     animation: float 3s linear infinite;
 }
 
@@ -933,3 +937,4 @@ header #menu{
   }
 
 }
+
