@@ -88,4 +88,3 @@ let li = document.querySelectorAll(".faq-text li");
        clickedLi.classList.toggle("showAnswer");
       });
     }
-
