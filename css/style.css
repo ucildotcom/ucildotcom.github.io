@@ -525,6 +525,7 @@ header #menu{
   height: auto;
   overflow: auto;
   white-space: nowrap ;
+  margin-top: -50px;
 }
 
 .card {
@@ -542,8 +543,6 @@ header #menu{
 
 .faq{
     text-align: center;
-    padding:.5rem;
-    padding-top: 8rem;
     min-height: 100vh;
 }
 
@@ -554,8 +553,7 @@ header #menu{
   align-items: center;
   justify-content: space-between;
   background: #fff;
-  border-radius: 25px;
-  margin-top: -28px;
+  margin-top: -10px;
   padding: 45px 90px 45px 60px;
 }
 .accordion .image-box{
@@ -785,8 +783,8 @@ header #menu{
   margin-top: 2rem;
   padding: 1rem;
   padding-top: 2.5rem;
-  font-size: 2rem;
-  color: #666;
+  font-size: 1.5rem;
+  color: var(--blue);
   border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
 }
 
@@ -935,3 +933,4 @@ header #menu{
   }
 
 }
+
