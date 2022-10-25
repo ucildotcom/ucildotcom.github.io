@@ -56,3 +56,36 @@ $(document).ready(function(){
   });
 
 });
+
+function loader(){
+
+  document.querySelector('.loader-container').classList.add('fade-out');
+
+}
+
+
+
+document.querySelectorAll('.slide .video-container .controls .control-btn').forEach(btn =>{
+
+    btn.onclick = () =>{
+
+        let src = btn.getAttribute('data-src');
+        document.querySelector('.slide .video-container .video').src = src;
+    }
+})
+
+let li = document.querySelectorAll(".faq-text li");
+
+    for (var i = 0; i < li.length; i++) {
+
+      li[i].addEventListener("click", (e)=>{
+        let clickedLi;
+        if(e.target.classList.contains("question-arrow")){
+          clickedLi = e.target.parentElement;
+        }else{
+          clickedLi = e.target.parentElement.parentElement;
+        }
+       clickedLi.classList.toggle("showAnswer");
+      });
+    }
+
