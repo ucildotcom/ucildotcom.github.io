@@ -557,7 +557,7 @@ header #menu{
   align-items: center;
   justify-content: space-between;
   background: #fff;
-  margin-top: -10px;
+  margin-top: -40px;
   padding: 45px 90px 45px 60px;
 }
 .accordion .image-box{
@@ -565,9 +565,9 @@ header #menu{
   width: 300px;
 }
 .accordion .image-box img{
-  height: 90%;
-  width: 90%;
-  margin-left: 25px;
+  height: 100%;
+  width: 100%;
+  margin-left: 10px;
   object-fit: contain;
 }
 .accordion .accordion-text{
@@ -577,6 +577,7 @@ header #menu{
   font-size: 20px;
   font-weight: 600;
   color: var(--blue);
+  margin-top: -70px;
   
 }
 .accordion .accordion-text .faq-text{
@@ -937,3 +938,4 @@ header #menu{
   }
 
 }
+
